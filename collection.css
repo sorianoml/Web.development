@@ -1,0 +1,14 @@
+body
+{
+	background: grey;
+	font-family: Century Gothic;
+}
+nav
+{
+	background: lightskyblue;
+	box-shadow: 5px 5px 5px black;
+}
+h1
+{
+	color: white;
+}

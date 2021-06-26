@@ -1,0 +1,38 @@
+body
+{
+	font-family: Century Gothic;
+	background: grey;
+}
+.title
+{
+	color:  #000;
+	text-align: center;
+	background: lightskyblue;
+	padding: 20px;
+	box-shadow: 5px 3px 4px black;
+	margin: 0;
+}
+.card
+{
+	margin: 20px;
+	box-shadow: 5px 3px 4px black;
+	border-radius: 20px;
+	padding: 20px;
+	width: 200px;
+	float:  left;
+}
+button, a
+{
+	float: center;
+}
+.h5
+{
+	padding: 20px;
+	margin: 20px;
+}
+h1
+{
+	margin: 40px;
+	padding: 50px;
+
+}

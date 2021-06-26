@@ -1,0 +1,34 @@
+body
+{
+	background: grey;
+	font-family: Century Gothic;
+}
+.title
+{
+	color:  #000;
+	text-align: center;
+	background: lightskyblue;
+	padding: 20px;
+	box-shadow: 5px 3px 4px black;
+	margin: 0;
+}
+.content
+{
+	margin: 20px;
+}
+.details
+{
+	background: antiquewhite;
+	width:  925px;
+	padding:  20px;
+	box-shadow: 5px 3px 4px black;
+	float: left;
+	margin: 20px;
+	border-radius: 20px;
+
+}
+h5
+{
+	text-align: center;
+	margin: 0;
+}

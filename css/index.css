@@ -1,0 +1,52 @@
+body
+{
+	font-family: Century Gothic;
+	background: grey;
+}
+.title
+{
+	color:  #000;
+	text-align: center;
+	background: lightskyblue;
+	padding: 20px;
+	box-shadow: 5px 3px 4px black;
+	margin: 0;
+}
+.sub_title
+{
+	width: 200px;
+	background: hotpink;
+	padding:  20px;
+	margin-left:  40px;
+	margin-bottom: 0;
+	border-radius: 20px 20px 0 0; 
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+.sample
+{
+	width: 780px;
+	background: #fff;
+	padding:  20px;
+	border-radius: 0 20px 20px 20px;
+	margin-left:  40px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	box-shadow: 5px 3px 4px black;
+
+}
+
+blockquote 
+{
+	margin-left: 80px;
+}
+
+flow-text
+{
+	margin-left:  80px;
+
+}
