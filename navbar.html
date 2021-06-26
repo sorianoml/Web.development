@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Font awesome CDN -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/css.css">
+  <title>Navigation Bar</title>
+</head>
+<body>
+  <!-- Responsive with side nav -->
+  <nav class="lightskyblue darken-4">
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="#" class="brand-logo center">MIKAELLA</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+          <ul id="nav-mobile" class="right hide-on-small-and-down">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li class="active">
+              <a href="floating-buttons.html">Floating Button</a>
+            </li>
+            <li><a href="colors.html">Colors</a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+        </div>
+       <a href="#user"><img class="circle" src="images/image.jpg"></a>
+        <a href="#name"><span class="black-text name">Mikaella</span></a>
+        <a href="#email"><span class="black-text email">alleakim13@gmail.com</span></a>
+      </div>
+    </li>
+    <li>
+          <div class="divider"></div>
+        </li>
+      <li>
+        <a href="https://www.instagram.com/miksiast/?hl=en" target="_blank">
+          <i class="fab fa-instagram"></i>
+          @miksiast
+        </a>
+      </li>
+        <li>
+          <a href="https://twitter.com/HyungMik_" target="_blank">
+            <i class="fab fa-twitter"></i>
+            @HyungMik_
+          </a>
+        </li>
+        <li>
+          <a href="https://web.facebook.com/eccedentesiastmiks" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+            Mikaella Soriano
+          </a>
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+    </ul>
+  <div class="container">
+    <h3>Responsive Navigation Bar</h3>
+    <h6 class="grey-text text-darken-4">What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+</h6>
+  </div>
+
+
+
+  <!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav({
+      edge: 'right',
+      inDuration: 100
+    });
+  });
+</script>
+</body>
+</html>
